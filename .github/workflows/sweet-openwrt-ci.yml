@@ -66,7 +66,7 @@ jobs:
           # ln -s /mnt/openwrt/feeds ./feeds
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           
-            df -h
+          df -h
 
       - name: Update feeds
         run: |
